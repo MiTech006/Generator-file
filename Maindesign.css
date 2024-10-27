@@ -119,3 +119,20 @@ button:hover {
     padding: 10px;
     border: 1px solid #ddd;
 }
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .containers {
+        margin-left: 0; /* Remove the margin on mobile */
+    }
+
+    .form-container {
+        width: 100%; /* Make the form container take up full width */
+    }
+
+    .form-container h1 {
+        font-size: 1.5rem; /* Reduce the font size of the heading */
+    }
+
+    /* Add more styles for mobile devices as needed */
+}
