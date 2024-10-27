@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Username Generator
+    </title>
+    <link rel="stylesheet" href="Homedesign.css">
+    
+    <link rel="icon" href="MT-ic.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="MT-ic.png" type="image/png" sizes="16x16">
+<link rel="icon" href="MT-ic.png" type="image/png" sizes="32x32">
+<link rel="icon" href="MT-ic.png" type="image/png" sizes="48x48">
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>
+          USERNAME GENERATOR
+        </h1>
+        <p>
+          Choose What Platform to use for
+        </p>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="container">
+        <section class="grid">
+
+            <div class="card" onclick="goToPlatform('Youtube')" style="background-color: #FF0000;">
+                <h2>
+                  Youtube
+                </h2>
+            </div>
+            <div class="card" onclick="goToPlatform('Facebook')" style="background-color: #1877F2;">
+                <h2>
+                  Facebook
+                </h2>
+            </div>
+            <div class="card" onclick="goToPlatform('Instagram')" style="background-color: #fccc63;">
+                <h2>
+                  Instagram
+                </h2>
+            </div>
+            <div class="card" onclick="goToPlatform('Twitter')" style="background-color: #1DA1F2;">
+              <h2>
+                Twitter/X
+              </h2>
+          </div>
+          <div class="card" onclick="goToPlatform('TikTok')" style="background-color: #ff0050;">
+              <h2>
+                Tiktok
+              </h2>
+          </div>
+          <div class="card" onclick="goToPlatform('Reddit')" style="background-color: #FF0000;">
+              <h2>
+                Reddit
+              </h2>
+          </div>
+          <div class="card" onclick="goToPlatform('Pinterest')" style="background-color: #E60023;">
+              <h2>
+                Pinterest
+              </h2>
+          </div>
+          <div class="card" onclick="goToPlatform('Twitch')" style="background-color: #9146FF;">
+              <h2>
+                Twitch
+              </h2>
+          </div>
+          <div class="card" onclick="goToPlatform('Discord')" style="background-color: #4682B4;">
+              <h2>
+                Discord
+              </h2>
+          </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Mitech. All rights reserved.</p>
+        <p>
+          Thank you so much
+        </p>
+    </footer>
+
+    <script>
+      function goToPlatform(platform) {
+          window.location.href = 'main.html?platform=' + platform;
+      }
+  </script>
+</body>
+</html>

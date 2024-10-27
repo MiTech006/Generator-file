@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Generator Form
+    </title>
+    <link rel="stylesheet" href="Maindesign.css">
+</head>
+<body>
+    <div class="containers">
+        <div class="form-container">
+            <h1>
+                Survey Form
+            </h1>
+            <p>
+                Fill out the input to Generate a username
+            </p>
+            
+            <form action="#" method="post">
+                <label for="name">
+                    Name:
+                </label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="hobby">
+                    Hobby:
+                </label>
+                <input type="text" id="hobby" name="hobbyy" required>
+    
+                <label for="dob">
+                    Date of Birth:
+                </label>
+                <input type="date" id="dob" name="dob" required>
+    
+                <label for="color">
+                    Favorite Color:
+                </label>
+                <input type="text" id="color" name="color" required>
+    
+                <label for="animal">
+                    Favorite Animal:
+                </label>
+                <input type="text" id="animal" name="animal" required>
+    
+                <label for="game">
+                    Favorite Game:
+                </label>
+                <input type="text" id="game" name="game" required>
+               
+                <label for="food">
+                    Favorite Food:
+                </label>
+                <input type="text" id="food" name="food" required>
+               
+                <button type="button" onclick="generateUsername()">
+                    Generate
+                </button>
+            </form>
+        </div>
+    
+        <div class="generated-container">
+            <h2>
+                Generated Usernames:
+            </h2>
+            <ul id="generatedUsernames"></ul>
+        </div>
+    </div>
+
+<script src="Func.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1c1c1e, #3a3a3c, #4b4b4e);
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  width: 100%;
+  max-width: 1200px;
+  padding: 15px;
+  background: #26262a;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #4da8da;
+}
+
+/* Content Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Cards for sections */
+.card {
+  background: #3a3a3c;
+  color: #f1f1f1;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  background: #4b4b4e;
+  cursor: pointer;
+}
+
+/* Responsive Grid Layout */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #999;
+}

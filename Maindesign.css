@@ -1,0 +1,121 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8a5c2, #63cdda);
+}
+
+/* Container */
+.containers {
+    margin-left: 4.5in;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-container p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.generated-container {
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: #6a89cc;
+}
+
+/* Input and Label */
+label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Radio Group */
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.radio-group label {
+    font-size: 0.9rem;
+}
+
+/* Button */
+button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a89cc;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4a69bd;
+}
+
+/* Generator */
+#generatedUsernames {
+    list-style-type: none;
+    padding: 0;
+}
+
+#generatedUsernames li {
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
